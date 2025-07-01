@@ -1,4 +1,4 @@
-# 🏡 RealEstate Web App
+# 🏡 RealEstate
 
 A sleek, responsive Real Estate web application built with React, Tailwind CSS, and Framer Motion. This platform is designed to help users browse, showcase, and manage property listings with ease and clarity.
 

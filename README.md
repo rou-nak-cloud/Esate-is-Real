@@ -61,5 +61,5 @@ npm run dev
 ```
 
 ## 🌟 Credits
-- Design & Development: [Rounak Baskhi]
+- Design & Development: Rounak Baskhi | RB
 - Deployed on: Vercel

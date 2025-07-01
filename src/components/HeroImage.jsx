@@ -1,5 +1,6 @@
 import Navbar from './Navbar'
-import { motion } from "motion/react"
+// import { motion } from "motion/react"
+import { motion } from 'framer-motion'
 
 const HeaderImage = () => {
   return (
@@ -8,7 +9,12 @@ const HeaderImage = () => {
     >
         <Navbar />
 
-        <motion.div className='container mx-auto text-center text-white px-6 py-4 md:px-20 lg:px-32'>
+        <motion.div 
+        initial={{opacity:0, y:100}}
+        whileInView={{opacity:1,y:0}}
+        transition={{duration:1, delay:0.5, ease:"easeInOut"}}
+        viewport={{once:true}}
+        className='container mx-auto text-center text-white px-6 py-4 md:px-20 lg:px-32'>
           <h2 className='font-mono font-semibold text-5xl sm:text-6xl md:text-[95px] inline-block max-w-4xl pt-14 leading-none'>
             Find your dream home
           </h2>

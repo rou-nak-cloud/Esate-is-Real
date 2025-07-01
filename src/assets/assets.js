@@ -24,6 +24,13 @@ export const navLinks = [
   { id:"testimonials", name: "Testimonials", path: "/" },
 ];
 
+export const footerLinks = [
+  { id: "home", name: "Home", path: "/" },
+  { id: "contact", name: "Contact", path: "/contact" },
+  { id: "pricing", name: "Pricing", path: "/pricing" },
+  { id: "policy", name: "Privacy Policy", path: "/privacy-policy" },
+];
+
 export const assets = {
     logo,
     logo_dark,

@@ -30,7 +30,7 @@ const Contact = () => {
   };
 
   return (
-      <div className='container mx-auto py-10 lg:px-32 w-full overflow-hidden' id='testimonials'>
+      <div className='container mx-auto py-10 lg:px-32 w-full overflow-hidden' id='contact'>
       <h1 className='text-2xl sm:4xl font-bold mb-2 text-center text-gray-700'>
         Contact <span className='underline underline-offset-4 decoration-1 under font-light'>With us</span>
       </h1>

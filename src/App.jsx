@@ -7,16 +7,18 @@ import Testimonials from './components/Testimonials'
 import Contact from './components/Contact'
 
 import { ToastContainer } from 'react-toastify'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
    <section className='w-full overflow-hidden'> 
-   <ToastContainer />
       <HeaderImage /> 
       <About />
       <Projects />
       <Testimonials />
       <Contact />
+      <Footer />
+   <ToastContainer />
    </section>
   )
 }

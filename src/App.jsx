@@ -3,6 +3,7 @@ import React from 'react'
 import HeaderImage from './components/HeroImage'
 import About from './components/About'
 import Projects from './components/Projects'
+import Testimonials from './components/Testimonials'
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <HeaderImage /> 
       <About />
       <Projects />
+      <Testimonials />
    </section>
   )
 }
